@@ -1,0 +1,51 @@
+body {
+    margin: 0px 10px 0px 10px;
+    font-family: Arial, sans-serif;
+    background-color: lightslategrey;
+}
+
+.header {
+    background-color: #333;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: black;
+}
+
+.logo img {
+    height: 55px;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline;
+    gap: 20px;
+    
+}
+
+.nav-links li {
+    display: inline
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+    margin: 0px 20px 0px 0px;
+}
+
+#bor1{
+    border: 2px solid red;
+}
+
+#bor2{
+    border: 2px dotted red;
+}
+#bor3{
+    border: 2px dashed red  ;
+}
